@@ -8,6 +8,7 @@ class Board extends React.Component{
         this.state={
             squares:Array(9).fill(null),
             xIsNext:true,
+           
         }
     }
     
@@ -58,7 +59,7 @@ class Board extends React.Component{
         }
         return(
             <div className="main">
-            <div style={{textAlign:"center"}}>{status}</div>
+            <div style={{textAlign:"center"}} className="heading">{status}</div>
               <section>
                 <div> {this.renderSquare(0)}</div>
                 <div> {this.renderSquare(1)}</div>
