@@ -65,15 +65,15 @@ class Board extends React.Component{
                 <div> {this.renderSquare(2)}</div>
               </section>
               <section>
+              <div> {this.renderSquare(3)}</div>
               <div> {this.renderSquare(4)}</div>
               <div> {this.renderSquare(5)}</div>
-              <div> {this.renderSquare(6)}</div>
             </section>
           
             <section>
+            <div> {this.renderSquare(6)}</div>
             <div> {this.renderSquare(7)}</div>
             <div> {this.renderSquare(8)}</div>
-            <div> {this.renderSquare(9)}</div>
           </section>
         
 
